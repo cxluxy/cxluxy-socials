@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cxluxy</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			background-color: #F0F0F0;
+		}
+    
+    
+    	header {
+		background-color: black;
+		color: white;
+		padding: 20px;
+		text-align: center;
+		font-size: 30px;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		position: relative;
+	}
+
+	header::after {
+		content: "";
+		background-image: url("https://i.imgur.com/rnJAwKM.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		opacity: 0.3;
+		z-index: -1;
+	}
+
+	main {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+	}
+
+	a {
+		display: block;
+		width: 200px;
+		height: 200px;
+		margin: 20px;
+		border-radius: 50%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		transition: transform 0.5s;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	}
+
+	a:hover {
+		transform: scale(1.2);
+	}
+
+	.youtube {
+		background-color: #FF0000;
+		background-image: url("https://i.imgur.com/5jKq3q5.png");
+	}
+
+	.instagram {
+		background-color: #C13584;
+		background-image: url("https://i.imgur.com/brW71o8.png");
+	}
+
+	.twitter {
+		background-color: #1DA1F2;
+		background-image: url("https://i.imgur.com/FVKQK81.png");
+	}
+
+	.snapchat {
+		background-color: #FFFC00;
+		background-image: url("https://i.imgur.com/i4jDEyH.png");
+	}
+
+	.twitch {
+		background-color: #6441A4;
+		background-image: url("https://i.imgur.com/Zh6ypuH.png");
+	}
+
+</style>
+
+
+
+</head>
+<body>
+	<header>
+		<h1>cxluxy</h1>
+	</header>
+  
+  
+  
+  <main>
+	<a href="https://www.youtube.com/@cxluxy" class="youtube"></a>
+	<a href="https://www.instagram.com/cxluxy" class="instagram"></a>
+	<a href="https://twitter.com/cxluxy" class="twitter"></a>
+	<a href="https://www.snapchat.com/cxluxy" class="snapchat"></a>
+	<a href="https://www.twitch.tv/cxluxy" class="twitch"></a>
+</main>
+
+</body>
+</html>
+
+
